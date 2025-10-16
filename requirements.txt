@@ -1,0 +1,16 @@
+vosk>=0.3.45
+transformers>=4.30.0
+torch>=2.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+bitsandbytes>=0.41.0  # for 4-bit quantization
+accelerate>=0.27.0  # for efficient model loading
+einops>=0.7.0  # required for TinyLlama
+# eSpeak is a system package (not available on PyPI). For a Python-only fallback, use pyttsx3
+pyttsx3>=2.90
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+ultralytics>=8.0.0  # for YOLOv8/YOLOv11n
+tqdm>=4.66.1  # for progress bars
+python-json-logger>=2.0.7
+pytest>=7.4.0
